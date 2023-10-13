@@ -22458,7 +22458,6 @@ header.header-v12.v13.pb .light-logo {
     .promo-studio-content {
         padding-top: 10vh;
     }
-}
 
 .hp13 .light-logo {
     display: none !important;
@@ -22489,4 +22488,12 @@ header.header-v12.v13.pb .light-logo {
 
     padding: 12px 24px;
     border-radius: 6px;
+}
+
+.quiz-v1 {
+    padding: 49px 0 16px;
+}
+
+.features-section {
+    margin-bottom: 108px;
 }

@@ -4,7 +4,7 @@ layout: home
 banner:
   title: "We make games for teaching executive function skills."
   content: "Some children are special. What works for typical children does not work for them. What they need is also special. Special learning tools for special children is what we do."
-  image: "/assets/img/banner-v8.png"
+  image: "/assets/img/ban-img10.png"
   button:
     link: "/"
     label: "Get Started"

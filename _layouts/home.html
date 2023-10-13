@@ -4,7 +4,7 @@
 
   <body>
     <div class="wrapper">
-      {% include header/header-agency.html %}
+      {% include header/header-game.html %}
 
       <section class="banner-v8">
         <div class="container">
@@ -65,7 +65,7 @@
       </section>
       <!--banner-v8 end-->
 
-      <section class="why-us-v8">
+      <section class="why-us-v8 features-section">
         <div class="container">
           <div
             class="title-v8 text-center wow fadeInUp"
@@ -73,14 +73,22 @@
             data-wow-delay="0ms"
           >
             {% assign features = page.features %}
-            <h2>{{ features.title}}</h2>
-            <p>{{ features.content}}</p>
+            <!-- <h2>{{ features.title}}</h2>
+            <p>{{ features.content}}</p> -->
           </div>
           <!--title-v8 end-->
           <div class="row fzt-row">
             {% for tablist in features.tablist %}
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="our-fzt">
+                <div class="d-flex justify-content-between pb-4 header">
+                  <div>
+                    <img src="/assets/img/clr3.png" />
+                  </div>
+                  <div>
+                    <p>CASE STUDY</p>
+                  </div>
+                </div>
                 <h3>
                   <a href="{{ tablist.link }}" title="">{{ tablist.title }}</a>
                 </h3>
@@ -149,28 +157,51 @@
         </div>
       </section>
 
-      <section class="testimonial-v2">
+      <section class="testimonial-v3 py-5">
+        {% assign testimonial_2 = page.testimonial_v2 %}
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <div class="d-lg-flex d-md-flex justify-content-center">
-                <div class="position-relative">
-                  <div>
-                    <img src="/assets/img/testimonial-bg.svg" />
-                  </div>
-                  <div class="position-absolute testimonial-container">
-                    <div class="d-lg-flex d-md-flex d-sm-flex justify-content-center">
-                      <div class="testimonial-body position-relative">
-                        <div class="content_box">
-                          {% assign testimonial_v2 = page.testimonial_v2 %}
-                          {{testimonial_v2.content}}
-                        </div>
-                      </div>
+            <div class="col-md-6">
+              <div class="testimonial">
+                <div class="testimonial-content">
+                  <p>{{testimonial_2.content}}</p>
+                </div>
+                <div class="testimonial-thumb d-flex justify-content-between py-3">
+                  <div class="d-flex gap-2">
+                    <div class="testimonial-thumb-avatar">
+                      <img src="/assets/img/team4.jpg" />
                     </div>
-                    <div class="d-lg-flex d-md-flex d-sm-flex justify-content-center">
-                      <div class="testimonial-avatar">
-                        <img src="/assets/img/team10.jpg"/>
-                      </div>
+                    <div class="testimonial-thumb-info d-flex flex-column justify-content-center">
+                      <h2>Jeans Grey</h2>
+                      <p>CEO of BraveBred</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <img src="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="testimonial">
+                <div class="testimonial-content">
+                  <p>{{testimonial_2.content}}</p>
+                </div>
+                <div class="testimonial-thumb d-flex justify-content-between py-3">
+                  <div class="d-flex gap-2">
+                    <div class="testimonial-thumb-avatar">
+                      <img src="/assets/img/team4.jpg" />
+                    </div>
+                    <div class="testimonial-thumb-info d-flex flex-column justify-content-center">
+                      <h2>Jeans Grey</h2>
+                      <p>CEO of BraveBred</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <img src="" />
                     </div>
                   </div>
                 </div>

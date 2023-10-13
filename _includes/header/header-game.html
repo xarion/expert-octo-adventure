@@ -1,0 +1,33 @@
+<header class="header-v8">
+  <div class="container">
+    <div class="header-content-v8">
+      <div class="logo-v8">
+        <a href="#" title="">
+          <img src="{{site.data.settings.logo_game}}" alt="">
+        </a>
+      </div><!--logo-v8 end-->
+      <nav>
+        <ul>
+          {% for item in site.data.navigation-menu.primary.toc %}
+          <li>
+            <a href="{{item.url}}" title="">{{ item.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <!--nav end-->
+      <a href="javascript:void(Tawk_API.toggle())" title="" class="chat-btn">
+        Get it!
+        <!-- <i class="lni lni-comments-reply"></i> -->
+      </a>
+      <!-- <button type="button" class="nav-toggle-btn a-nav-toggle ms-auto">
+        <span class="nav-toggle nav-toggle-sm">
+          <span class="stick stick-1"></span>
+          <span class="stick stick-2"></span>
+          <span class="stick stick-3"></span>
+        </span>
+      </button> -->
+    </div><!--header-content-v8 end-->
+  </div>
+</header><!--header end-->
+{% include sidemenu.html %}
