@@ -55,6 +55,8 @@ features_2:
     - title: "Scientifically Backed"
       content: "We have tested our teaching method in schools all over the world. Our mobile app instills the same principal with a self learning and digital approach."
 
+testimonial_v2: 
+  content: "Our 8 year old played nurture games when she was 6. (unlike her brother) she is very good at mathematics and reading. "
 content_area:
   title: "We Help You Increase Sales By Improving SEO"
   label: "We know good design meant that good business."

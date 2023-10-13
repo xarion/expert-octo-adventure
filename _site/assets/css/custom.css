@@ -40,7 +40,6 @@
   box-shadow: 0 2px 4px 0 rgba(136,144,195,0.2), 0 5px 15px 0 rgba(37,44,97,0.15);
   background-color: #303030;
 
-  top: 48px;
   width: 80%;
 
   color: white;
@@ -62,7 +61,6 @@
 .testimonial-v2 .testimonial-container .testimonial-avatar {
   width: 70px;
   height: 70px;
-  margin-top: 52px;
 }
 
 .testimonial-v2 .testimonial-container .testimonial-avatar > img {
