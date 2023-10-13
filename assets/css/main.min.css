@@ -22482,3 +22482,11 @@ header.header-v12.v13.pb .light-logo {
     border-bottom: 1px solid #e3e3e3;
     padding: 10px 0 !important;
 }
+
+.header-content-v8 .chat-btn {
+    background-color: #4c0ee9;
+    color: #fff;
+
+    padding: 12px 24px;
+    border-radius: 6px;
+}

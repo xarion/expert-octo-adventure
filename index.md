@@ -2,8 +2,8 @@
 layout: home
 ############################ Banner ##################################
 banner:
-  title: "Boost your business up to high level"
-  content: "Like any great agency, we are only as good as the result we deliver of our recent work"
+  title: "We make games for teaching executive function skills."
+  content: "Some children are special. What works for typical children does not work for them. What they need is also special. Special learning tools for special children is what we do."
   image: "/assets/img/banner-v8.png"
   button:
     link: "/"
@@ -21,6 +21,39 @@ about_section:
   image3: "/assets/img/crcle-img3.png"
   label3: "Marketing Strategy"
   icon3: "lni lni-bulb"
+
+features:
+  title: "Super Powers for Special Heroes"
+  content: "Our games are specially designed to help special needs children shine brighter! We make learning both fun and super effective for them! 😄"
+
+  tablist:
+    - link: ""
+      title: "TAILORED FOR SPECIAL NEEDS"
+      content: "Our games flex and shape to meet each child's unique needs, ensuring that special needs children are given a comforting yet challenging learning experience. 🌟"
+    - link: ""
+      title: " INSIGHTS FOR PARENTS"
+      content: "Dive deep into your child's progress. Celebrate their achievements and identify areas that can further boost their confidence. 🎉"
+    - link: ""
+      title: " DEVELOP FUTURE-PROOF SKILLS"
+      content: "Beyond just fun, our games are designed to enhance children's working memory and executive function skills-critical abilities that prepare them for future academic and life challenges. 🧠"
+
+interest:
+  title: "Are you interested/"
+  content: "Try our first game with your child!"
+  button: 
+    label: "Get it!"
+    url: ""
+ 
+features_2:
+  title: "Safe experience for your child"
+  content: "We curate our app to make sure that your children are not exposed to harmful content."
+  tablist:
+    - title: "Nothing but games!"
+      content: "We do not show your children content such as ads that may lead to harmful neurological developments."
+    - title: "Safe and fun"
+      content: "Today, many games and videos are created to provide gratification to promote addictive behavior. We rely on pure fun and curiosity to attract your child's attention."
+    - title: "Scientifically Backed"
+      content: "We have tested our teaching method in schools all over the world. Our mobile app instills the same principal with a self learning and digital approach."
 
 content_area:
   title: "We Help You Increase Sales By Improving SEO"

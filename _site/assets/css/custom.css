@@ -1,0 +1,72 @@
+.logo-v8 img {
+  width: 240px;
+}
+
+.banner-v8-content .banner-txt-v8 > h2 {
+  font-size: 48px;
+}
+
+.banner-v8-content .banner-txt-v8 .banner-btn-group {
+  display: flex;
+  gap: 48px;
+}
+
+.banner-img-v8 {
+  text-align: right;
+}
+
+.interest-section-v8 {
+  background-color: #7C1DE9;
+  padding: 48px;
+}
+
+.interest-section-v8 a {
+  background-color: #FCBF40;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+.testimonial-v2 .testimonial-container {
+  top: 48px;
+}
+
+.testimonial-body {
+  width: 100%;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(136,144,195,0.2), 0 5px 15px 0 rgba(37,44,97,0.15);
+  background-color: #303030;
+
+  top: 48px;
+  width: 80%;
+
+  color: white;
+}
+
+.testimonial-body > .content_box::after {
+  content: "";
+  width: 90px;
+  height: 32px;
+  background-image: url("../img/cloud_arrow.e1e77f60cc40.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+}
+
+.testimonial-v2 .testimonial-container .testimonial-avatar {
+  width: 70px;
+  height: 70px;
+  margin-top: 52px;
+}
+
+.testimonial-v2 .testimonial-container .testimonial-avatar > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
