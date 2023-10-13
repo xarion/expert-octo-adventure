@@ -2,6 +2,10 @@
   width: 240px;
 }
 
+.header-content-v8 .chat-btn {
+  background-color: rgb(121, 28, 228);
+}
+
 .banner-v8-content .banner-txt-v8 > h2 {
   font-size: 48px;
 }
@@ -67,4 +71,39 @@
   width: 100%;
   height: 100%;
   border-radius: 100%;
+}
+
+.quiz-v1 {
+  padding: 49px 0 16px;
+}
+
+.quiz-v1 .quiz-content > .quiz-content-item {
+  padding: 20px 15px 20px 20px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(216, 221, 230);
+}
+
+.quiz-v1 .quiz-content > .quiz-content-item > .quiz-content-item-question > p {
+  
+  color: rgb(124, 29, 233);
+}
+
+.footer-v6-game {
+  margin: 49px 0 0;
+
+  background-color: rgb(48, 48, 48) !important;
+  padding: 40px 0px !important;
+}
+.footer-v6-game p {
+  color: rgb(255, 255, 255);
+}
+
+.footer-v6-game .footer-v6-game-tiktok {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-v6-game .footer-v6-game-tiktok > img {
+  width: 100%;
+  height: 100%;
 }
