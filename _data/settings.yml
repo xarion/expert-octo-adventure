@@ -1,5 +1,5 @@
 # General Settings
-title: "Miles premium jekyll template"
+title: "Nurture Games"
 favicon: "/assets/img/favicon.png"
 name: "Miles."
 description: "Miles - Creative Website"
@@ -21,6 +21,7 @@ logo_home_portfolio2: /assets/img/logo14.png
 logo_white: /assets/img/logo.png
 logo_dark: /assets/img/logo2.png
 logo_portfolio: /assets/img/logo13.png
+logo_game: /assets/img/logo-nurturegames.png
 
 # Logo Pages
 logo_about_agency: /assets/img/logo2.png

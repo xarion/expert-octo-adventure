@@ -2,9 +2,9 @@
 layout: home
 ############################ Banner ##################################
 banner:
-  title: "Boost your business up to high level"
-  content: "Like any great agency, we are only as good as the result we deliver of our recent work"
-  image: "/assets/img/banner-v8.png"
+  title: "We make games for teaching executive function skills."
+  content: "Some children are special. What works for typical children does not work for them. What they need is also special. Special learning tools for special children is what we do."
+  image: "/assets/img/ban-img10.png"
   button:
     link: "/"
     label: "Get Started"
@@ -21,6 +21,58 @@ about_section:
   image3: "/assets/img/crcle-img3.png"
   label3: "Marketing Strategy"
   icon3: "lni lni-bulb"
+
+features:
+  title: "Super Powers for Special Heroes"
+  content: "Our games are specially designed to help special needs children shine brighter! We make learning both fun and super effective for them! 😄"
+
+  tablist:
+    - link: ""
+      title: "TAILORED FOR SPECIAL NEEDS"
+      content: "Our games flex and shape to meet each child's unique needs, ensuring that special needs children are given a comforting yet challenging learning experience. 🌟"
+    - link: ""
+      title: " INSIGHTS FOR PARENTS"
+      content: "Dive deep into your child's progress. Celebrate their achievements and identify areas that can further boost their confidence. 🎉"
+    - link: ""
+      title: " DEVELOP FUTURE-PROOF SKILLS"
+      content: "Beyond just fun, our games are designed to enhance children's working memory and executive function skills-critical abilities that prepare them for future academic and life challenges. 🧠"
+
+interest:
+  title: "Are you interested?"
+  content: "Try our first game with your child!"
+  button: 
+    label: "Get it!"
+    url: ""
+ 
+features_2:
+  title: "Safe experience for your child"
+  content: "We curate our app to make sure that your children are not exposed to harmful content."
+  tablist:
+    - title: "Nothing but games!"
+      content: "We do not show your children content such as ads that may lead to harmful neurological developments."
+    - title: "Safe and fun"
+      content: "Today, many games and videos are created to provide gratification to promote addictive behavior. We rely on pure fun and curiosity to attract your child's attention."
+    - title: "Scientifically Backed"
+      content: "We have tested our teaching method in schools all over the world. Our mobile app instills the same principal with a self learning and digital approach."
+
+testimonial_v2: 
+  content: "Our 8 year old played nurture games when she was 6. (unlike her brother) she is very good at mathematics and reading. "
+
+quiz:
+  title: "Making learning fun again"
+  subtitle: "Nurture games is here to support parents with nurturing their children."
+  content:
+    - question: "What is Nurture Games?"
+      answer: "Nurture Games is a mobile application in development for Apple and Android mobile phones and tablets. In Nurture Games your child plays games that are specially designed to be fun and engaging while making your child think and develop brains. Our games are designed for children with special needs between 4 to 8 with the help of the latest neuroscience research in learning and development. Our games are also enjoyable and potentially beneficial for anyone older.
+      
+      For the past four years, we have been developing games in various forms and working with children to scientifically and objectively evaluate the effects of our games. We have found a formula that significantly improves the learning experience of children. Using this formula, we are creating Nurture Games, with the goal of making life easier for special needs children and their families."
+    - question: "How it can help my child ?"
+      answer: "According to the latest neuroscience research, repetition helps develop neural pathways in the brain. As these neural pathways develop, it is known that the learned information becomes easier to access. Nurture Games uses this principle in its games to make your child repetitively use basic mathematical concepts to grasp them very well. Our games learn how well your child knows certain logical and mathematical concepts. It tracks their key executive functioning skills. Based on this information, we adapt the game to suit the difficulty that your child can work with. This is helpful, especially for children with various learning disabilities.  Based on this, we adapt the game to your child so that they are challenged to an extent that they can handle. We also challenge your child by rewarding them for playing games that use concepts that they are not good at yet. This motivates them to learn new information and use skills that they are not good at.
+      
+      Overall, we help your child develop basic executive function skills in the context of various learning goals. These skills and learning goals will help them immensely for the rest of their lives. We see that the investment children put in by playing our games provides an immeasurable value in their school life.
+      "
+    - question: "Is it safe for my child?"
+      answer: "Nurture games is developed with the direct guidence and feedback of professional researchers in neuroscience and pedagogy. It is our most important priority to bring your child a safe and secure environment in which they can nurture."
 
 content_area:
   title: "We Help You Increase Sales By Improving SEO"
