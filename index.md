@@ -81,11 +81,11 @@ showcase:
       text: "Handshake scrum project learning curve termsheet buzz bandwidth alpha pivot analytics supply."
       date: "May 9th, 2021"
     - image: "/assets/img/bg-post2.jpg"
-      title: "15 Mobile UX Design Practices to Delight Your Users"
+      title: "Times & The Focus - How to Control Its Smart"
       text: "Handshake scrum project learning curve termsheet buzz bandwidth alpha pivot analytics supply."
       date: "May 9th, 2021"
     - image: "/assets/img/bg-post3.jpg"
-      title: "15 Mobile UX Design Practices to Delight Your Users"
+      title: "The windows know to say beside you"
       text: "Handshake scrum project learning curve termsheet buzz bandwidth alpha pivot analytics supply."
       date: "May 9th, 2021"
 content_area:
