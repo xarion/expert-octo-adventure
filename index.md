@@ -74,6 +74,20 @@ quiz:
     - question: "Is it safe for my child?"
       answer: "Nurture games is developed with the direct guidence and feedback of professional researchers in neuroscience and pedagogy. It is our most important priority to bring your child a safe and secure environment in which they can nurture."
 
+showcase:
+  content:
+    - image: "/assets/img/bg-post1.jpg"
+      title: "15 Mobile UX Design Practices to Delight Your Users"
+      text: "Handshake scrum project learning curve termsheet buzz bandwidth alpha pivot analytics supply."
+      date: "May 9th, 2021"
+    - image: "/assets/img/bg-post2.jpg"
+      title: "15 Mobile UX Design Practices to Delight Your Users"
+      text: "Handshake scrum project learning curve termsheet buzz bandwidth alpha pivot analytics supply."
+      date: "May 9th, 2021"
+    - image: "/assets/img/bg-post3.jpg"
+      title: "15 Mobile UX Design Practices to Delight Your Users"
+      text: "Handshake scrum project learning curve termsheet buzz bandwidth alpha pivot analytics supply."
+      date: "May 9th, 2021"
 content_area:
   title: "We Help You Increase Sales By Improving SEO"
   label: "We know good design meant that good business."

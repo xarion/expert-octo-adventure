@@ -17,7 +17,7 @@
                   data-wow-duration="1000ms"
                   data-wow-delay="0ms"
                 >
-                  <h2>{{ banner.title }}</h2>
+                  <h2><span id="feature-text">{{ banner.title }}</span><span class="input-cursor"></span></h2>
                   <p>{{ banner.content }}</p>
                   {% assign button = banner.button %}
                   <div class="banner-btn-group">
@@ -241,12 +241,41 @@
           </div>
         </div>
       </section>
+      <section class="blog-showcase-section section">
+        {% assign showcase = page.showcase %}
+        <div class="container">
+          <div class="d-flex justify-content-center py-5 blog-showcase-section-title">
+            <p></p>
+            <h2>Latest Articles</h2>
+          </div>
+          <div class="row">
+            {% for post in showcase.content %}
+              <div class="col-md-4">
+                <div class="blog-showcase">
+                  <div class="blog-showcase-img mb-3">
+                    <img src="{{post.image}}" />
+                  </div>
+                  <div class="blog-showcase-content">
+                    <h2 class="mb-3">{{post.title}}</h2>
+                    <p class="mb-3">{{post.text}}</p>
+                    <b class="mb-3">{{post.date}}</b>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+            
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+          </div>
+        </div>
+      </section>
 
       {% include footer/footer-game.html %}
     </div>
     <!--wrapper end-->
 
     <script src="/assets/js/bundle.min.js"></script>
+    <script src="/assets/js/word-type.js"></script>
     {% include chat-script.html %}
 
   </body>
