@@ -213,3 +213,10 @@
 .single-post-layout1 .blog-posts-layout2 .bg-post .bg-post-info iframe {
   width: 100% !important;
 }
+
+@media (max-width: 576px) {
+  .banner-btn-group-v2 a {
+    margin-bottom: 12px;
+    width: 100%;
+  }
+}

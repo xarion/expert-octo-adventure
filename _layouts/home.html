@@ -20,19 +20,25 @@
                   <h2><span id="feature-text">{{ banner.title }}</span><span class="input-cursor"></span></h2>
                   <p>{{ banner.content }}</p>
                   {% assign button = banner.button %}
-                  <div class="banner-btn-group">
+                  <!-- <div class="banner-btn-group"> -->
+                  <div class="row banner-btn-group-v2">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <a href="{{ button.link }}" title="" class="btn-default-v8">
+                        <img src="/assets/img/btn-apple-store.svg" />
+                      </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <a href="{{ button.link }}" title="" class="btn-default-v8">
+                        <img src="/assets/img/btn-google-play.svg" />
+                      </a>
+                    </div>
                     <!-- <a href="{{ button.link }}" title="" class="btn-default-v8"
                       >{{ button.label }}</a
                     >
                     <a href="{{ button.link }}" title="" class="btn-default-v8"
                       >{{ button.label }}</a
                     > -->
-                    <a href="{{ button.link }}" title="" class="btn-default-v8">
-                      <img src="/assets/img/btn-apple-store.svg" />
-                    </a>
-                    <a href="{{ button.link }}" title="" class="btn-default-v8">
-                      <img src="/assets/img/btn-google-play.svg" />
-                    </a>
+                    
                   </div>
                 </div>
                 <!--banner-txt end-->
