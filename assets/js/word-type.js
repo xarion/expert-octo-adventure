@@ -1,9 +1,9 @@
 const carouselText = [
-  { text: "Special children with special needs.", color: 'black' },
-  { text: "Teaching executive function skills.", color: "black" },
-  { text: "Parents who care.", color: "black" },
-  { text: "Helping parents manage time.", color: "black" },
-  { text: "Helping parents worry less.", color: "black" }
+  { text: "special children with special needs.", color: 'black' },
+  { text: "teaching executive function skills.", color: "black" },
+  { text: "parents who care.", color: "black" },
+  { text: "helping parents manage time.", color: "black" },
+  { text: "helping parents worry less.", color: "black" }
 ]
 $(document).ready(function() {
   carousel(carouselText, "#feature-text")
