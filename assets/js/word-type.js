@@ -1,9 +1,8 @@
 const carouselText = [
-  {text: "We make games for teaching executive function skills.", color: "red"},
+  {text: "teaching executive function skills.", color: "black"},
 ]
 
-$( document ).ready(async function() {
-  console.log('carousel effect')
+$(document).ready(function() {
   carousel(carouselText, "#feature-text")
 });
 
