@@ -204,3 +204,12 @@
   display: block;
   margin-bottom: 19px;
 }
+
+/** mobile responsive */
+
+.single-post-layout1 .blog-posts-layout2 .bg-post .bg-post-info img {
+  width: 100%;
+}
+.single-post-layout1 .blog-posts-layout2 .bg-post .bg-post-info iframe {
+  width: 100% !important;
+}
