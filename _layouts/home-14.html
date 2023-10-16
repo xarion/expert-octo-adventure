@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    <div class="wrapper">
+      {% include header/header-game-v2.html %}
+      <!--header end-->
+
+      <section class="banner-v10">
+        {% assign banner = page.banner %}
+        <div class="container">
+          <div class="banner-content-v10">
+            <div
+              class="banner-txt-v10 wow fadeInUp"
+              data-wow-duration="1000ms"
+              data-wow-delay="0ms"
+            >
+              <span>miles agency</span>
+              <h2>We make games for  <span id="feature-text"></span><span class="input-cursor"></span></h2>
+                  <p>{{ banner.content }}</p>
+              <!-- <a href="#" title="" class="btn-default-v10">Get Started</a> -->
+              <div class="row banner-btn-group-v2">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="{{ button.link }}" title="" class="btn-default-v10 btn-default-v14">
+                    <img src="/assets/img/btn-apple-store.svg" />
+                  </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="{{ button.link }}" title="" class="btn-default-v10 btn-default-v14">
+                    <img src="/assets/img/btn-google-play.svg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--banner-txt-v10 end-->
+            <div
+              class="ban-img-v10 wow zoomIn"
+              data-wow-duration="1000ms"
+              data-wow-delay="0ms"
+            >
+              <img src="assets/img/ban-img10.png" alt="" class="w-100" />
+            </div>
+            <!--ban-img-v10 end-->
+          </div>
+          <!--banner-content-v10 end-->
+        </div>
+      </section>
+      <!--banner-v10 end-->
+
+      <section class="our-services-sec v10">
+        {% assign services = page.services %}
+        <div class="container">
+          <div class="our-services-content">
+            <div class="row">
+              {% for item in services.tablist %}
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="service-card-mile wow fadeInLeft"
+                    data-wow-duration="1000ms"
+                    data-wow-delay="0ms"
+                  >
+                    <img src="{{item.img}}" alt="" />
+                    <h2><a href="{{item.link}}" title="">{{item.title}}</a></h2>
+                    <p>{{item.content}}</p>
+                    <a href="#" title="" class="cat-up">case study</a>
+                  </div>
+                  <!--service-card end-->
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <!--our-services-content end-->
+        </div>
+      </section>
+      <!--our-services-sec end-->
+      <section class="why-us-v8">
+        <div class="container">
+          <div
+            class="title-v8 text-center wow fadeInUp"
+            data-wow-duration="1000ms"
+            data-wow-delay="0ms"
+          >
+            {% assign features = page.features_2 %}
+            <h2>{{ features.title}}</h2>
+            <p>{{ features.content}}</p>
+          </div>
+          <!--title-v8 end-->
+          <div class="row fzt-row">
+            {% for tablist in features.tablist %}
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="our-fzt">
+                <h3>
+                  <a href="{{ tablist.link }}" title="">{{ tablist.title }}</a>
+                </h3>
+                <p>{{ tablist.content }}</p>
+                <!-- <span class="fzt-icon {{ tablist.version }}"
+                  ><i class="{{ tablist.icon }}"></i
+                ></span> -->
+              </div>
+              <!--our-fzt end-->
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      {% include testimonial/creative-agency.html %}
+      <section class="blogs-v10">
+        <div class="container">
+          <div
+            class="title-v10 text-center wow fadeInUp"
+            data-wow-duration="1000ms"
+            data-wow-delay="0ms"
+          >
+            <span>our press</span>
+            <h2>Lastes Articles</h2>
+          </div>
+          <!--title-v10 end-->
+          <div class="blog-posts-v10 row">
+            {% for post in site.posts limit: 3 %}
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="post-v10">
+                <div class="post-thumb">
+                  <img src="{{post.layout_image}}" alt="" class="w-100" />
+                </div>
+                <div class="post-info">
+                  <h2>
+                    <a href="{{bpostlog.url}}" title="">{{post.title}}</a>
+                  </h2>
+                  <p>{{post.description}}</p>
+                  <span class="posted-on"
+                    >{{ post.date | date_to_long_string: "ordinal", "US" }}
+                  </span>
+                </div>
+              </div>
+              <!--post-v10 end-->
+            </div>
+            {% endfor %}
+          </div>
+          <!--blog-posts-v10 end-->
+        </div>
+      </section>
+      <!--blogs-v10 end-->
+
+      {% include footer/footer-game.html %}
+    </div>
+    <!--wrapper end-->
+
+    <script src="/assets/js/bundle.min.js"></script>
+    <!-- <script src="/assets/js/word-type.js"></script> -->
+    {% include chat-script.html %}
+
+  </body>
+</html>
