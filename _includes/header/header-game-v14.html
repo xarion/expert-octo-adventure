@@ -1,0 +1,53 @@
+<header class="header-v6 v10">
+  <div class="container">
+    <div class="header-content-v6 justify-content-between">
+      <div class="logo">
+        <a href="#" title="">
+          <img width="280px" src="/assets/img/logo-nurturegames.png" alt="" />
+        </a>
+      </div>
+      <!--logo end-->
+      <nav>
+        <ul>
+          {% for item in site.data.navigation-menu.game.toc %}
+          <li>
+            <a href="#" title="">{{ item.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <!--nav end-->
+      <ul class="social-header">
+        <li>
+          <a href="#" title=""><i class="lni lni-twitter-original"></i></a>
+        </li>
+        <li>
+          <a href="#" title=""><i class="lni lni-facebook-filled"></i></a>
+        </li>
+        <li>
+          <a href="#" title=""><i class="lni lni-instagram-original"></i></a>
+        </li>
+        <li>
+          <a href="#" title=""><i class="lni lni-pinterest"></i></a>
+        </li>
+        <li>
+          <a href="#" title=""><i class="lni lni-youtube"></i></a>
+        </li>
+      </ul>
+      <a href="javascript:void(Tawk_API.toggle())" title="" class="hd-btn"
+        >Let’s chat! <i class="lni lni-comments-reply"></i
+      ></a>
+      <button
+        class="nav-toggle-btn a-nav-toggle desktop-hide mobile-show ml-auto"
+      >
+        <span class="nav-toggle nav-toggle-sm">
+          <span class="stick stick-1"></span>
+          <span class="stick stick-2"></span>
+          <span class="stick stick-3"></span>
+        </span>
+      </button>
+    </div>
+    <!--header-content-v6 end-->
+  </div>
+</header>
+{% include sidemenu-v2.html %}
