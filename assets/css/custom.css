@@ -10,12 +10,15 @@
   background-color: #eceff5;
   padding-bottom: 240px;
 }
+
 .header-content-v8 .chat-btn {
   background-color: rgb(121, 28, 228);
 }
+
 .banner-v8-content .banner-txt-v8 {
   margin-top: 0px;
 }
+
 .banner-v8-content .banner-txt-v8 > h2 {
   font-size: 48px;
 }
@@ -36,9 +39,19 @@
 .banner-img-v8 {
   text-align: right;
 }
+
 .banner-v10 .banner-content-v10 .banner-txt-v10 > h2 {
-  font-size: 64px !important;
+  font-size: 64px;
+  line-height: 68px;
 }
+
+@media (max-width: 576px) {
+  .banner-v10 .banner-content-v10 .banner-txt-v10 > h2 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+}
+
 .features-section {
   /* background-color: #fff; */
   margin-top: -240px;
@@ -238,3 +251,7 @@ body .typing-container .input-cursor {
 .banner-v10 .banner-content-v10 .banner-btn-group-v2 .btn-default-v14 {
   background-color: #4c0ee9;
 }
+
+/* .banner-v14 {
+  padding: 120px 0px 325px !important;
+} */
