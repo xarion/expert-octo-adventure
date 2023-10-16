@@ -36,7 +36,9 @@
 .banner-img-v8 {
   text-align: right;
 }
-
+.banner-v10 .banner-content-v10 .banner-txt-v10 > h2 {
+  font-size: 64px !important;
+}
 .features-section {
   /* background-color: #fff; */
   margin-top: -240px;
