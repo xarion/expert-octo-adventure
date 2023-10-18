@@ -43,12 +43,16 @@
 .banner-v10 .banner-content-v10 .banner-txt-v10 > h2 {
   font-size: 64px;
   line-height: 68px;
+
+  min-height: 216px;
 }
 
 @media (max-width: 576px) {
   .banner-v10 .banner-content-v10 .banner-txt-v10 > h2 {
     font-size: 42px;
     line-height: 48px;
+
+    min-height: 256px;
   }
 }
 
