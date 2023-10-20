@@ -17,7 +17,7 @@ utmost conviction and patience. The battle is never lost until you’ve abandon 
 
 ![img](/assets/img/post-large1.jpg)Pablo Illustration via Icon8
 
-### Challenge
+### Challenges of this method
 
 Success needs hard work. Don’t listen to these ‘get rich quick’ schemes. You need to build your character and work hard on yourself and your business to achieve greatness. Work hard and work smart. Do the right things and do them in the right way. Don’t procrastinate. Take bold actions. Work long hours and craft your legacy.
 
